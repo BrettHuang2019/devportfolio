@@ -374,8 +374,14 @@ footer {
 }
 
 #about .portrait {
-    width: 15rem;
+    width: 12rem;
     height: 15rem;
+    margin-bottom: 1.5rem
+}
+
+#about .bilibili {
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     margin-bottom: 1.5rem
 }
@@ -591,7 +597,7 @@ footer {
 }
 
 .project-game .project-image {
-    width: 300px;
+    width: 482px;
     height: 300px;
     object-fit: cover;
     overflow: hidden;
