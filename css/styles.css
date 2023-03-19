@@ -290,7 +290,7 @@ footer {
 
 #lead-content h1,
 #lead-content h2 {
-    margin: 0
+    margin: 20px 0
 }
 
 #lead-content h1 {
@@ -392,13 +392,13 @@ footer {
 
 #about .vertical-center {
     height: 15rem;
-    display: flex
+    display: flex;
 }
 
 #about p {
     text-align: left;
     color: #74808a;
-    margin: 0;
+    margin: 0px;
     align-self: center
 }
 
