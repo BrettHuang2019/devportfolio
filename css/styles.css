@@ -638,6 +638,20 @@ footer {
     transform: none
 }
 
+.project-links {
+    display: flex;
+    justify-content: center; /* 分布链接使其两端对齐 */
+    gap: 20px; /* 在两个链接之间添加固定的间距 */
+}
+
+.view-project-link,
+
+.download-pc-link {
+    /* 可选：添加一些基础样式，如行内块级显示、基础边距等 */
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
 #more-projects {
     display: none
 }

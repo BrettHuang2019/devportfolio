@@ -52,7 +52,7 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>你好，这是我的个人简历</h1>
+            <h1>你好,这是我的个人简历</h1>
             <h2>Unity3D开发工程师</h2>
             <a href="assets/覃靖雄简历.pdf" target="_blank" class="btn-rounded-white">简历下载</a>
         </div>
@@ -90,11 +90,15 @@
                         <br /><br />
                         · 熟悉xLua热更新框架以及lua编程语言，了解AssetBundle打包的原理和API的使用，能合理规划打包资源的依赖关系、避免资源冗余.
                         <br /><br />
+                        ·熟练使用Addressables与HybridCLR的热更新流程开发.
+                        <br /><br />
                         · 熟练UGUI界面开发，了解UGUI开发界面时常见的优化方案和注意事项，如最大程度降低UI的DrawCall和重绘、合理规划界面层级结构等
                         <br /><br />
                         · 了解Unity性能优化，如drawcall 优化，性能优化，对常见的性能优化有一定的理解.
                         <br /><br />
                         · 编写Unity编辑器拓展，可以根据策划、美术等需求制作工具.
+                        <br /><br />
+                        ·熟练使用SVN、Git、Plastic SCM等版本控制系统.
                     </p>
                 </div>
             </div>
@@ -184,6 +188,59 @@
         </div>
 
     </div>
+
+    <div id="education">
+        <h2 class="heading">项目经历</h2>
+
+        <!-- One Education Block -->
+        <div class="education-block">
+            <h3>毕设项目</h3>
+            <span class="education-date">2020.01 - 2020.06</span>
+
+            <h4>Unity与安卓原生开发</h4>
+            <ul>
+                <li>
+                    使用Unity与安卓结合开发，以module方式集成至安卓
+                </li>
+                <li>
+                    Unity接入EasyAR实现平面图像跟踪、表面跟踪
+                </li>
+                <li>
+                    安卓原生集成StickerCamera实现图片裁剪,给图片贴贴图打标签
+                </li>
+                <li>
+                    安卓原生HttpURLConnection实现读取下载阿里云OOS图片
+                </li>
+            </ul>
+        </div>
+
+        <div class="education-block">
+            <h3>个人作品</h3>
+            <span class="education-date">2020.01 - 2020.06</span>
+
+            <h4>Unity开发</h4>
+            <ul>
+                <li>一、原创游戏《Card&Key》</li>
+                <h5>
+                    使用PUN2联机框架实现多人在线游玩
+                </h5>
+                <li>二、休闲游戏《抓小猫》</li>
+                <h5>
+                    使用广度优先搜索算法解决寻路问题
+                </h5>
+                <li>三、《2048》休闲小游戏</li>
+                <h5>
+                    使用二维数组完成数字的组合消除
+                </h5>
+                <li>四、独立开发联机FPS游戏，俯视角2D独立游戏等。</li>
+                <h5>
+                    Mirror和TopDownEngine的使用
+                </h5>
+            </ul>
+        </div>
+
+    </div>
+
 
     <!-- End of One Education Block -->
     </div>
@@ -350,15 +407,22 @@
             <!-- One Project Game Block -->
             <div class="project-game shadow-large">
                 <div class="project-image">
-                    <img src="assets/thumbs/project02-thumb.jpg" />
+                    <img src="assets/thumbs/card&key.png" />
                 </div>
                 <div class="project-info">
-                    <h3>抓小猫demo</h3>
+                    <h3>Card&Key</h3>
                     <p>
-                        这是一个抓小猫小游戏的Demo.
+                        灵感源于猜码而创造的联机游戏卡牌类游戏
                     </p>
-                    <a href="http://8.134.53.209:8081/Game/encircle-cat/" target="_blank">查看项目</a>
-                    <a href="http://jing_xia_qin.gitee.io/encircle-cat" target="_blank">备用地址</a>
+
+                    <div class="project-links">
+                        <a href="https://qjx-xxxx.github.io/Card-Key/" target="_blank"
+                            class="view-project-link">查看项目</a>
+                        <a href="https://card-game-x.oss-cn-guangzhou.aliyuncs.com/DigitalGame.zip" target="_blank"
+                            class="download-pc-link">PC版本下载</a>
+                    </div>
+
+
                 </div>
             </div>
             <!-- End of One Project Game Block -->
@@ -366,20 +430,41 @@
             <!-- One Project Game Block -->
             <div class="project-game shadow-large">
                 <div class="project-image">
-                    <img src="assets/thumbs/2048.jpg" />
+                    <img src="assets/thumbs/project02-thumb.jpg" />
                 </div>
                 <div class="project-info">
-                    <h3>2048</h3>
+                    <h3>抓小猫demo</h3>
                     <p>
-                        这是一个2048小游戏的Demo.
+                        这是一个抓小猫小游戏的Demo.
                     </p>
+                    <div class="project-links">
+                    <a href="http://8.134.53.209:8081/Game/encircle-cat/" target="_blank">查看项目</a>
+                    <a href="http://jing_xia_qin.gitee.io/encircle-cat" target="_blank">备用地址</a>
+                </div>
+            </div>
+        </div>
+        <!-- End of One Project Game Block -->
+
+        <!-- One Project Game Block -->
+        <div class="project-game shadow-large">
+            <div class="project-image">
+                <img src="assets/thumbs/2048.jpg" />
+            </div>
+            <div class="project-info">
+                <h3>2048</h3>
+                <p>
+                    这是一个2048小游戏的Demo.
+                </p>
+                <div class="project-links">
                     <a href="http://8.134.53.209:8081/Game/2048/" target="_blank">查看项目</a>
                     <a href="https://qjx-xxxx.github.io/2048/" target="_blank">备用地址</a>
                 </div>
-            </div>
-            <!-- End of One Project Game Block -->
 
+            </div>
         </div>
+        <!-- End of One Project Game Block -->
+
+    </div>
     </div>
 
 
